@@ -26,15 +26,15 @@ To get started with this project, you will need to have the following:
 
 1. Clone the repository to your local machine using the following command:
 
-```git
-git clone https://github.com/yourusername/flutter-arduino-bluetooth.git
+```diff
+git clone https://github.com/yassinedevop/flutter-arduino-bluetooth.git
 ```
 
 2. Open the project in Android Studio or any other preferred IDE.
 
 3. Install the required dependencies by running the following command:
 
-```flutter
+```dart
 flutter pub get
 ```
 
@@ -56,8 +56,7 @@ This project provides a basic template for building Bluetooth-based projects usi
 
 #### Bluetooth.ino
 
-```arduino
-
+```c
 #include <SoftwareSerial.h>
 
 SoftwareSerial HM10(2, 3); // RX = 2, TX = 3
